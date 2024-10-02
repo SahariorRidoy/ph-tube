@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="w-10/12 mx-auto flex justify-between py-6 items-center border-b-2">
+    <header class="w-10/12 mx-auto">
+        <nav class=" flex justify-between py-6 items-center border-b-2">
             <!-- logo -->
             <div class="w-[130px]" id="logo">
                 <img src="images/Logo.png" alt="">
@@ -36,7 +36,16 @@
                 <button class="btn">SORT</button>
             </div>
         </nav>
+        
     </header>
+    <nav class="flex justify-center py-6 gap-6" id="categories">
+
+    </nav>
+    <main>
+        <section class="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-10 " id="videos"></section>
+    </main>
     
+
+    <script src="js/script.js"></script>
 </body>
 </html>
